@@ -1,12 +1,12 @@
 #
 # Cookbook:: git
-# Spec:: default
+# Spec:: centos
 #
 # Copyright:: 2017, Sean Holden, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'git::default' do
+describe 'git::centos' do
   context 'When all attributes are default, on centos7 platform' do
     let(:platform) { 'centos' }
     let(:version) { '7.2.1511' }

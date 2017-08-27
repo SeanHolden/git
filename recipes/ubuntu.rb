@@ -1,15 +1,15 @@
 #
 # Cookbook:: git
-# Recipe:: default
+# Recipe:: ubuntu
 #
 # Copyright:: 2017, Sean Holden, All Rights Reserved.
 #
 
-package 'git-all'
+package 'git'
 
-template '/home/vagrant/.gitconfig' do
+template "/home/#{_user}/.gitconfig" do
   source 'gitconfig.erb'
-  owner 'vagrant'
-  group 'vagrant'
+  owner _user
+  group _user
   mode '644'
 end
