@@ -1,6 +1,6 @@
 #
 # Cookbook:: git
-# Spec:: centos
+# Spec:: default
 #
 # Copyright:: 2017, Sean Holden, All Rights Reserved.
 
